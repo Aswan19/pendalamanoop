@@ -1,17 +1,19 @@
-<?php 
+<?php
 class Hewan
 {
     public $nama;
-    public function __construct($nama)
-    {
-        $this->nama = $nama;
-    }
-    public $darah = 50;
     public $jumlahKaki;
     public $keahlian;
+    public function __construct($nama, $jumlahKaki, $keahlian)
+    {
+        $this->nama = $nama;
+        $this->jumlahKaki = $jumlahKaki;
+        $this->keahlian = $keahlian;
+    }
+    public $darah = 50;
 
     public function atraksi()
     {
-        return "$this->nama, $this->keahlian";
+        echo $this->nama . ' sedang ' . $this->keahlian;
     }
 }
