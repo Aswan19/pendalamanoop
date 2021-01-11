@@ -1,5 +1,6 @@
 <?php
 require('hewan.php');
+require('elang.php');
 
 trait Fight
 {
