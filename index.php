@@ -16,8 +16,8 @@ echo "<br><br>";
 // 2. serang-diserang
 echo "<br>" . $harimau->serang("elang");
 echo "<br>" . $elang->serang("harimau") . "<br>";
-echo "<br>" . $harimau->diserang("harimau", "elang");
-echo "<br>" . $elang->diserang("elang", "harimau");
+echo "<br>" . $harimau->diserang();
+echo "<br>" . $elang->diserang();
 
 // 3. getInfoHewan
 echo "<br>" . $elang->getInfoHewan();
